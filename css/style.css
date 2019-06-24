@@ -6,11 +6,39 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: red;
 }
 a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 p {
   margin: 0.75rem 0;
+}
+/* utility classes */
+.text-primary {
+  color: #93cb52;
+}
+/* navbar */
+.navbar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: #fff;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  text-align: center;
+  list-style: none;
+}
+.navbar ul li a {
+  color: white;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+.navbar ul li a:hover {
+  background-color: #93cb52;
+  border-radius: 5px;
 }
