@@ -42,3 +42,17 @@ p {
   background-color: #93cb52;
   border-radius: 5px;
 }
+/* Showcase */
+.showcase {
+  background: #333 url("../img/showcase.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+}
+.showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
