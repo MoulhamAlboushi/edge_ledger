@@ -28,6 +28,14 @@ p {
 .text-primary {
   color: #93cb52;
 }
+.bg-light {
+  background: #999;
+  color: #333;
+}
+.bg-dark {
+  background: #333;
+  color: #999;
+}
 /* navbar */
 .navbar {
   display: flex;
@@ -106,12 +114,21 @@ p {
 .py-1 {
   padding: 1.5rem 0;
 }
-
 .py-2 {
   padding: 2rem 0;
 }
 .py-3 {
   padding: 3rem 0;
+}
+
+.p-1 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
 }
 /* Section: What we do */
 .items {
@@ -124,4 +141,19 @@ p {
   flex: 1;
   text-align: center;
   background: #b7e088;
+}
+/* Section:who we are */
+.who {
+  display: flex;
+}
+.who div {
+  flex: 1;
+}
+.list li {
+  list-style: none;
+  border-bottom: #444 dotted 1px;
+  margin-bottom: 1.5rem;
+}
+.who .who-img {
+  background: url("../img/people.jpg") no-repeat center center/cover;
 }
