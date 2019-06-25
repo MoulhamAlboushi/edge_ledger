@@ -60,7 +60,7 @@ p {
 }
 .m-heading {
   font-size: 2rem;
-  margin-bottom: 0.75rem;
+  margin: 0.75rem;
   line-height: 1.1;
 }
 .lead {
@@ -118,7 +118,8 @@ p {
   /* box-sizing: border-box; */
 }
 .item {
-  padding: 0;
+  padding: 2rem;
   flex: 1;
   text-align: center;
+  background: #b7e088;
 }
