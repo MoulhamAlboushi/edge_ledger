@@ -93,12 +93,14 @@ p {
   height: 100%;
   padding: 0 2rem;
   /* overlay */
-  position: absolute;
-  top: 97px;
-  left: 10px;
-  width: 100%;
+  /* this is importent (posiion: absolute ) cancel*/
+  /* position: absolute; */
+  top: 90px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   border: 1px solid black;
-  /* background-color: rgba(173, 67, 157, 0.4); */
+  background-color: rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
 }
 .py-1 {
